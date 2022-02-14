@@ -26,21 +26,25 @@
     "docs": "http://andersao.github.io/l5-repository"
   },
   "require": {
-    "illuminate/http": "~5.0|~6.0|~7.0|^8.0|^9.0",
-    "illuminate/config": "~5.0|~6.0|~7.0|^8.0|^9.0",
-    "illuminate/support": "~5.0|~6.0|~7.0|^8.0|^9.0",
-    "illuminate/database": "~5.0|~6.0|~7.0|^8.0|^9.0",
-    "illuminate/pagination": "~5.0|~6.0|~7.0|^8.0|^9.0",
-    "illuminate/console": "~5.0|~6.0|~7.0|^8.0|^9.0",
-    "illuminate/filesystem": "~5.0|~6.0|~7.0|^8.0|^9.0",
-    "prettus/laravel-validation": "~1.1|~1.2",
-    "illuminate/validation": "~5.0|~6.0|~7.0|^8.0|^9.0"
+    "illuminate/http": "^9.0",
+    "illuminate/config": "^9.0",
+    "illuminate/support": "^9.0",
+    "illuminate/database": "^9.0",
+    "illuminate/pagination": "^9.0",
+    "illuminate/console": "^9.0",
+    "illuminate/filesystem": "^9.0",
+    "serviceright/laravel-validation": "^2.0",
+    "illuminate/validation": "^9.0"
   },
   "autoload": {
     "psr-4": {
       "Prettus\\Repository\\": "src/Prettus/Repository/"
     }
   },
+  "repositories": [
+    {"type": "composer", "url": "https://repo.packagist.com/serviceright/microservice-world/"},
+    {"packagist.org": false}
+  ],
   "config": {
     "preferred-install": "dist"
   },
