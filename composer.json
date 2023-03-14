@@ -33,7 +33,7 @@
     "illuminate/pagination": "^10.0",
     "illuminate/console": "^10.0",
     "illuminate/filesystem": "^10.0",
-    "serviceright/laravel-validation": "^2.0",
+    "serviceright/laravel-validation": "^3.0",
     "illuminate/validation": "^10.0"
   },
   "autoload": {
